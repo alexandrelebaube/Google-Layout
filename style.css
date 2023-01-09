@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: end;
+  height: 10vh;
+  align-items: center;
+}
+.Images {
+  padding: 0 15px;
+}
+.profile-img {
+  border-radius: 50%;
+  padding: 0 15px;
+  height: 40px;
+  width: 40px;
+}
+.search-section {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.google-text {
+  font-size: 100px;
+}
+span {
+  padding: 0;
+}
+.search-bar {
+  height: 40px;
+  border-radius: 30px;
+  width: 500px;
+  margin-top: 20px;
+  border: 1px solid lightgray;
+  padding-left: 40px;
+}
+.fa-magnifying-glass {
+  position: relative;
+  left: 35px;
+  color: lightgray;
+}
+.fa-microphone {
+  position: relative;
+  right: 60px;
+}
+.fa-camera {
+  position: relative;
+  right: 55px;
+}
