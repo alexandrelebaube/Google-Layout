@@ -22,7 +22,7 @@ nav {
   width: 40px;
 }
 .search-section {
-  height: 80vh;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,4 +54,81 @@ span {
 .fa-camera {
   position: relative;
   right: 55px;
+}
+.search-buttons {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.search-google {
+  margin-right: 10px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  padding: 5px;
+  background-color: #f2f2f2;
+  width: 150px;
+}
+.luck-button {
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  padding: 5px;
+  background-color: #f2f2f2;
+  width: 150px;
+}
+.footer-section {
+  background-color: #f2f2f2;
+  height: 20vh;
+  padding: 10px;
+}
+.country-france {
+  margin: 10px;
+}
+.objective {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-menu {
+  display: flex;
+  /* height: 20px; */
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  color: gray;
+  font-size: 12px;
+}
+.left-footer-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.right-footer-menu {
+  display: flex;
+  margin-right: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.left-footer-menu p {
+  margin-left: 15px;
+}
+.right-footer-menu p {
+  margin-right: 15px;
+}
+@media only screen and (max-width: 1200px) {
+  .search-bar {
+    width: 300px;
+  }
+  .footer-menu {
+    flex-direction: column;
+  }
+  .footer-section {
+    height: fit-content;
+  }
+  .right-footer-menu {
+    margin-right: 0;
+    margin-top: 20px;
+  }
 }
